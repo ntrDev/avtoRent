@@ -1,0 +1,322 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  border: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1222px;
+}
+
+header {
+  display: block;
+  width: 100%;
+  position: relative;
+  background: #5f5f5f;
+  height: 45px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 193px;
+  height: 193px;
+  left: -36px;
+  top: -76px;
+  background: #fff url(../img/top_logo.svg) no-repeat 55px 95px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  padding-top: 14px;
+}
+
+.header_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.contact_mnu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 653px;
+  height: inherit;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+.contact_mnu_wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_mnu_wrapp li:first-child {
+  margin-right: 40px;
+}
+
+.contact_mnu_wrapp li:last-child {
+  margin-left: 43px;
+}
+
+.item_contact_mnu .phone {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.item_contact_mnu {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.mnu_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a.item_contact_mnu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+.nav_mnu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 433px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_mnu_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 45px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_mnu_wrapper li a.nav_mnu_items {
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.nav_mnu_wrapper li a.nav_mnu_items:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #a1d214;
+}
+
+.icon_phone,
+.icon_map,
+.icon_clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 14px;
+  height: 13.36px;
+}
+
+.icon_phone {
+  background: url(../img/icons/phone.svg) no-repeat;
+}
+
+.icon_map {
+  background: url(../img/icons/marker.svg) no-repeat;
+}
+
+.icon_clock {
+  margin-right: 6px;
+  background: url(../img/icons/clock_green.svg) no-repeat;
+}
+
+.block_client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  height: 70px;
+}
+
+.block_client_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.client_wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.catalog_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 135px;
+  height: 45px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  background: #a1d214 url(../img/icons/Group.svg) no-repeat 14px 13px;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.search_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 425px;
+  height: 45px;
+  background: #f1f1f1 url(../img/icons/search.svg) no-repeat 98% center;
+  border: none;
+  border-radius: 10px;
+  color: #333333;
+  padding: 0 12px 0 23px;
+  margin-left: 15px;
+  opacity: 0.5;
+}
+
+.sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background: #ffc709 url(../img/icons/sale.svg) no-repeat center center;
+}
+
+.user_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15px;
+  height: 20px;
+  background: url(../img/icons/user.svg) no-repeat center center;
+}
+
+.favorites_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20px;
+  height: 18px;
+  background: url(../img/icons/heard.svg) no-repeat center center;
+}
+
+.basket_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background: url(../img/icons/basket.svg) no-repeat center center;
+}
+/*# sourceMappingURL=style.css.map */

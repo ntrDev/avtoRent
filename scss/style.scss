@@ -1,0 +1,219 @@
+@import "var";
+// @import 'fonts';
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+body,
+ul {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+button,
+input {
+    border: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1222px;
+}
+header {
+    display: block;
+    width: 100%;
+    position: relative;
+    background: $header_rectangle;
+    height: 45px;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: 193px;
+    height: 193px;
+    left: -36px;
+    top: -76px;
+    background: #fff url(../img/top_logo.svg) no-repeat 55px 95px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding-top: 14px;
+}
+.header_wrapper {
+    display: flex;
+    width: 100%;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.contact_mnu {
+    display: flex;
+    width: 653px;
+    height: inherit;
+    // padding-left: 230px;
+}
+ul > li {
+    list-style-type: none;
+}
+.contact_mnu_wrapp {
+    display: flex;
+    // width: 341px;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_mnu_wrapp li:first-child {
+    margin-right: 40px;
+}
+.contact_mnu_wrapp li:last-child {
+    margin-left: 43px;
+}
+.item_contact_mnu .phone {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.item_contact_mnu {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.mnu_wrapper {
+    display: flex;
+    height: 17px;
+    align-items: center;
+}
+
+a.item_contact_mnu {
+    display: flex;
+    color: #fff;
+}
+.nav_mnu {
+    display: flex;
+    width: 433px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_mnu_wrapper {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_mnu_wrapper li a.nav_mnu_items {
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+.nav_mnu_wrapper li a.nav_mnu_items:hover {
+    transition: all 0.5s;
+    color: $light_green_circle;
+}
+.icon_phone,
+.icon_map,
+.icon_clock {
+    display: flex;
+    width: 14px;
+    height: 13.36px;
+}
+.icon_phone {
+    background: url(../img/icons/phone.svg) no-repeat;
+}
+.icon_map {
+    background: url(../img/icons/marker.svg) no-repeat;
+}
+.icon_clock {
+    margin-right: 6px;
+    background: url(../img/icons/clock_green.svg) no-repeat;
+}
+.block_client {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 70px;
+}
+.block_client_wrapper {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 100%;
+}
+.client_wrapp {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog_btn {
+    display: flex;
+    width: 135px;
+    height: 45px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: $text_color;
+    background: $light_green_circle url(../img/icons/Group.svg) no-repeat 14px
+        13px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.search_items {
+    display: flex;
+    width: 425px;
+    height: 45px;
+    background: #f1f1f1 url(../img/icons/search.svg) no-repeat 98% center;
+    border: none;
+    border-radius: 10px;
+    color: $text_color;
+    padding: 0 12px 0 23px;
+    margin-left: 15px;
+    opacity: 0.5;
+}
+.sale {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background: $yellow url(../img/icons/sale.svg) no-repeat center center;
+}
+.user_icon {
+    display: flex;
+    width: 15px;
+    height: 20px;
+    background: url(../img/icons/user.svg) no-repeat center center;
+}
+.favorites_icon {
+    display: flex;
+    width: 20px;
+    height: 18px;
+    background: url(../img/icons/heard.svg) no-repeat center center;
+}
+.basket_icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background: url(../img/icons/basket.svg) no-repeat center center;
+}
