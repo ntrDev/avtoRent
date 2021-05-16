@@ -1,3 +1,171 @@
+@font-face {
+  font-family: "URW Geometric Extended Black Oblique";
+  src: url("../fonts/Geometric_Extended/URWGeometricExt-BlackOblique.eot");
+  src: local("URW Geometric Extended Black Oblique"), local("URWGeometricExt-BlackOblique"), url("URWGeometricExt-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometric_Extended/URWGeometricExt-BlackOblique.woff2") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-BlackOblique.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-BlackOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Heavy Oblique";
+  src: url("../fonts/Geometric_Extended/URWGeometricExt-HeavyOblique.eot");
+  src: local("URW Geometric Extended Heavy Oblique"), local("URWGeometricExt-HeavyOblique"), url("../fonts/Geometric_Extended/URWGeometricExt-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometric_Extended/URWGeometricExt-HeavyOblique.woff2") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-HeavyOblique.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-HeavyOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Extra";
+  src: url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBold.eot");
+  src: local("URW Geometric Extended Extra Bold"), local("URWGeometricExt-ExtraBold"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBoldOblique.eot") format("embedded-opentype"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBold.woff2") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBold.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended";
+  src: url("URWGeometricExt-Heavy.eot");
+  src: local("URW Geometric Extended Heavy"), local("URWGeometricExt-Heavy"), url("../fonts/Geometric_Extended/URWGeometricExt-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometric_Extended/URWGeometricExt-Heavy.woff2") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-Heavy.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Light Oblique";
+  src: url("URWGeometricExt-LightOblique.eot");
+  src: local("URW Geometric Extended Light Oblique"), local("URWGeometricExt-LightOblique"), url("../fonts/Geometric_Extended/URWGeometricExt-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometric_Extended/URWGeometricExt-LightOblique.woff2") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-LightOblique.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Extra";
+  src: url("../fonts/Geometric_Extended/URWGeometricExt-ExtraLight.eot");
+  src: local("URW Geometric Extended Extra Light"), local("URWGeometricExt-ExtraLight"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraLight.woff2") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraLight.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Extra Bold Oblique";
+  src: url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBoldOblique.eot");
+  src: local("URW Geometric Extended Extra Bold Oblique"), local("URWGeometricExt-ExtraBoldOblique"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBoldOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBoldOblique.woff2") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBoldOblique.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-ExtraBoldOblique.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Bold Oblique";
+  src: url("URWGeometricExt-BoldOblique.eot");
+  src: local("URW Geometric Extended Bold Oblique"), local("URWGeometricExt-BoldOblique"), url("URWGeometricExt-BoldOblique.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-BoldOblique.woff2") format("woff2"), url("URWGeometricExt-BoldOblique.woff") format("woff"), url("URWGeometricExt-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URWGeometric_Ext_Bold";
+  src: url("../fonts/Geometric_Extended/URWGeometricExt-Bold.eot");
+  src: local("URW Geometric Extended Bold"), local("URWGeometricExt-Bold"), url("../fonts/Geometric_Extended/URWGeometricExt-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometric_Extended/URWGeometricExt-Bold.woff2") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-Bold.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Extra Light Oblique";
+  src: url("URWGeometricExt-ExtraLightOblique.eot");
+  src: local("URW Geometric Extended Extra Light Oblique"), local("URWGeometricExt-ExtraLightOblique"), url("URWGeometricExt-ExtraLightOblique.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-ExtraLightOblique.woff2") format("woff2"), url("URWGeometricExt-ExtraLightOblique.woff") format("woff"), url("URWGeometricExt-ExtraLightOblique.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URWGeometricExtendedBl";
+  src: url("../fonts/Geometric_Extended/URWGeometricExt-Black.eot");
+  src: local("URW Geometric Extended Black"), local("URWGeometricExt-Black"), url("../fonts/Geometric_Extended/URWGeometricExt-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometric_Extended/") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-Black.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended";
+  src: url("URWGeometricExt-Thin.eot");
+  src: local("URW Geometric Extended Thin"), local("URWGeometricExt-Thin"), url("URWGeometricExt-Thin.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-Thin.woff2") format("woff2"), url("URWGeometricExt-Thin.woff") format("woff"), url("URWGeometricExt-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Thin Oblique";
+  src: url("URWGeometricExt-ThinOblique.eot");
+  src: local("URW Geometric Extended Thin Oblique"), local("URWGeometricExt-ThinOblique"), url("URWGeometricExt-ThinOblique.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-ThinOblique.woff2") format("woff2"), url("URWGeometricExt-ThinOblique.woff") format("woff"), url("URWGeometricExt-ThinOblique.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URWGeometricExtended";
+  src: url("../fonts/Geometric_Extended/URWGeometricExt-Regular.eot");
+  src: local("URW Geometric Extended"), local("URWGeometricExt-Regular"), url("URWGeometricExt-Regular.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-Regular.woff2") format("woff2"), url("URWGeometricExt-Regular.woff") format("woff"), url("URWGeometricExt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Semi";
+  src: url("URWGeometricExt-SemiBold.eot");
+  src: local("URW Geometric Extended Semi Bold"), local("URWGeometricExt-SemiBold"), url("URWGeometricExt-SemiBold.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-SemiBold.woff2") format("woff2"), url("URWGeometricExt-SemiBold.woff") format("woff"), url("URWGeometricExt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Semi Bold Oblique";
+  src: url("URWGeometricExt-SemiBoldOblique.eot");
+  src: local("URW Geometric Extended Semi Bold Oblique"), local("URWGeometricExt-SemiBoldOblique"), url("URWGeometricExt-SemiBoldOblique.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-SemiBoldOblique.woff2") format("woff2"), url("URWGeometricExt-SemiBoldOblique.woff") format("woff"), url("URWGeometricExt-SemiBoldOblique.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended";
+  src: url("URWGeometricExt-Light.eot");
+  src: local("URW Geometric Extended Light"), local("URWGeometricExt-Light"), url("URWGeometricExt-Light.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-Light.woff2") format("woff2"), url("URWGeometricExt-Light.woff") format("woff"), url("URWGeometricExt-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URWGeometric_Ext_Med";
+  src: url("../fonts/Geometric_Extended/");
+  src: local("URW Geometric Extended Medium"), local("URWGeometricExt-Medium"), url("../fonts/Geometric_Extended/URWGeometricExt-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Geometric_Extended/URWGeometricExt-Medium.woff2") format("woff2"), url("../fonts/Geometric_Extended/URWGeometricExt-Medium.woff") format("woff"), url("../fonts/Geometric_Extended/URWGeometricExt-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Oblique";
+  src: url("URWGeometricExt-RegularOblique.eot");
+  src: local("URW Geometric Extended Oblique"), local("URWGeometricExt-RegularOblique"), url("URWGeometricExt-RegularOblique.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-RegularOblique.woff2") format("woff2"), url("URWGeometricExt-RegularOblique.woff") format("woff"), url("URWGeometricExt-RegularOblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric Extended Medium Oblique";
+  src: url("URWGeometricExt-MediumOblique.eot");
+  src: local("URW Geometric Extended Medium Oblique"), local("URWGeometricExt-MediumOblique"), url("URWGeometricExt-MediumOblique.eot?#iefix") format("embedded-opentype"), url("URWGeometricExt-MediumOblique.woff2") format("woff2"), url("URWGeometricExt-MediumOblique.woff") format("woff"), url("URWGeometricExt-MediumOblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../Jost.eot");
+  src: local("Jost"), local("Jost"), url("Jost.eot?#iefix") format("embedded-opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10,10 +178,18 @@ html {
           box-sizing: inherit;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 body,
 ul {
   padding: 0;
   margin: 0;
+}
+
+ul li {
+  list-style-type: none;
 }
 
 a {
@@ -29,294 +205,718 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 1222px;
+  width: 1200px;
 }
 
 header {
   display: block;
   width: 100%;
-  position: relative;
-  background: #5f5f5f;
-  height: 45px;
+  height: 91px;
+}
+
+.top_mnu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 91px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top_mnu_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 91px;
+}
+
+.logo_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 14.26%;
 }
 
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  width: 193px;
-  height: 193px;
-  left: -36px;
-  top: -76px;
-  background: #fff url(../img/top_logo.svg) no-repeat 55px 95px;
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  padding-top: 14px;
+  width: 88px;
+  height: 39px;
+  background: url(../img/logo.svg) no-repeat;
 }
 
-.header_wrapper {
+.mnu_items_wrapp,
+.mnu_lang_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: inherit;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #fff;
 }
 
-.contact_mnu {
+.nav_mnu_wrapp,
+.nav_mnu_lang_wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 653px;
-  height: inherit;
-}
-
-ul > li {
-  list-style-type: none;
-}
-
-.contact_mnu_wrapp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 45px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  width: 100%;
+  height: 91px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.contact_mnu_wrapp li:first-child {
-  margin-right: 40px;
+a.item_mnu {
+  color: #170101;
+  font-family: "URWGeometric_Ext_Bold";
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-right: 30px;
 }
 
-.contact_mnu_wrapp li:last-child {
-  margin-left: 43px;
+a.item_mnu:hover,
+a.item_lang:hover {
+  text-decoration: underline;
+  color: #b5190f;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
 }
 
-.item_contact_mnu .phone {
-  font-family: Montserrat;
+a.item_lang {
+  font-family: "URWGeometric_Ext_Bl";
   font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 900;
+  font-size: 16px;
   line-height: 22px;
+  color: #170101;
+  margin-right: 10px;
 }
 
-.item_contact_mnu {
-  font-family: Montserrat;
+a.item_lang.active {
+  color: #b5190f;
+}
+
+.info_contacts_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 91px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.top_phone_number {
+  font-family: "URWGeometricExtendedBl";
+  font-size: 16px;
+}
+
+.top_addres_name {
+  font-family: "URWGeometric_Ext_Med";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.info_block {
+  margin-top: 100px;
+}
+
+._info_block_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.__block_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.__block_bg_name,
+.__block_bg_name_red {
+  font-family: "URWGeometricExtendedBl";
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.mnu_wrapper {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 17px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #170101;
 }
 
-a.item_contact_mnu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #fff;
+.__block_bg_name {
+  margin-bottom: 20px;
 }
 
-.nav_mnu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 433px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.nav_mnu_wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  height: 45px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.nav_mnu_wrapper li a.nav_mnu_items {
-  color: #fff;
-  font-family: Montserrat;
+._block_info_description,
+.__block_name_red {
+  font-family: Jost;
   font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  color: #170101;
 }
 
-.nav_mnu_wrapper li a.nav_mnu_items:hover {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  color: #a1d214;
+.__block_bg_name_red,
+.__block_name_red,
+._text_red {
+  color: #b5190f;
 }
 
-.icon_phone,
-.icon_map,
-.icon_clock {
+span > strong {
+  color: #b5190f;
+}
+
+._block_info_icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 14px;
-  height: 13.36px;
+  width: 100%;
+  margin: 70px 0 50px 0;
 }
 
-.icon_phone {
-  background: url(../img/icons/phone.svg) no-repeat;
-}
-
-.icon_map {
-  background: url(../img/icons/marker.svg) no-repeat;
-}
-
-.icon_clock {
-  margin-right: 6px;
-  background: url(../img/icons/clock_green.svg) no-repeat;
-}
-
-.block_client {
+.block_info_icons_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 52.54%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
-  background: #ffffff;
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  height: 70px;
 }
 
-.block_client_wrapper {
+._block_icons_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 70px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-}
-
-.client_wrapp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.catalog_btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 135px;
-  height: 45px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #333333;
-  background: #a1d214 url(../img/icons/Group.svg) no-repeat 14px 13px;
-  border-radius: 10px;
+  width: 33%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  cursor: pointer;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 
-.search_items {
+.icon_img_1,
+.icon_img_2,
+.icon_img_3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 425px;
-  height: 45px;
-  background: #f1f1f1 url(../img/icons/search.svg) no-repeat 98% center;
-  border: none;
-  border-radius: 10px;
-  color: #333333;
-  padding: 0 12px 0 23px;
-  margin-left: 15px;
-  opacity: 0.5;
+  width: 40px;
+  height: 40px;
 }
 
-.sale {
+.icon_img_1 {
+  background: url(../img/icons/icon_1.svg) no-repeat;
+}
+
+.icon_img_2 {
+  background: url(../img/icons/icon_2.svg) no-repeat;
+}
+
+.icon_img_3 {
+  background: url(../img/icons/icon_3.svg) no-repeat;
+}
+
+button.btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 45px;
-  height: 45px;
-  border-radius: 10px;
-  background: #ffc709 url(../img/icons/sale.svg) no-repeat center center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 7px 20px rgba(170, 23, 14, 0.29);
+          box-shadow: 0px 7px 20px rgba(170, 23, 14, 0.29);
+  border-radius: 5px;
+  color: #fff;
+  width: 183px;
+  height: 52px;
+  background: #b5190f;
 }
 
-.user_icon {
+button.btn:hover {
+  background: #a1130a;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+._block_bg_img {
+  position: relative;
+}
+
+.bg_avto_img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 15px;
+  width: 970px;
+  height: 675px;
+  background: url(../img/avto_img.png) no-repeat;
+  position: absolute;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_us {
+  margin-top: 150px;
+}
+
+._about_us_test_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40.78%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+._text_block_name,
+._about_word {
+  font-family: "URWGeometricExtendedBl";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 56px;
+}
+
+._about_word {
+  color: #170101;
+}
+
+._about_us_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50.78%;
+  margin-left: 8.34%;
+}
+
+._about_us_descr {
+  display: block;
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 30px;
+}
+
+._text_red.style_about_us {
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.img_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 456px;
+  background: url(../img/image_about.png) no-repeat;
+}
+
+.block_rentida {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #f4f4f4;
+  height: 400px;
+  margin-top: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper._rentida_wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+._rentida_text_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 36.14%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 14.08%;
+}
+
+.rentida_cart_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 49.83%;
+}
+
+.rentide_text_descr_wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 78%;
+}
+
+.rentide_text_descr {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  color: #170101;
+  margin-bottom: 30px;
+}
+
+.rentida_cart_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 183px;
+  height: 200px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 20px rgba(181, 179, 179, 0.2);
+          box-shadow: 0px 0px 20px rgba(181, 179, 179, 0.2);
+  border-radius: 5px;
+  padding: 28px 20px 24px 24px;
+  margin-right: 20px;
+}
+
+.rentida_cart_item:last-child {
+  margin-right: 0;
+}
+
+.up_cart_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cart_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
+.folder {
+  background: url(../img/icons/folder.svg) no-repeat;
+  margin-top: 8px;
+}
+
+.datapicker {
+  background: url(../img/icons/datapicker.svg) no-repeat;
+  margin-top: 9.25px;
+}
+
+.money {
+  background: url(../img/icons/money.svg) no-repeat;
+  margin-top: 8px;
+}
+
+.cart_number {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.cart_name {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.cart_descr {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+._map_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50.78%;
+  margin-left: 7.25%;
+}
+
+.map_img {
+  width: 100%;
+  height: 420px;
+  background: url(../img/map.png) no-repeat;
+}
+
+.contact_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 150px 0;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 290px;
+  background-color: #1a1919;
+  margin-bottom: 20px;
+  padding-top: 45px;
+  color: #fff;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .logo_wrapper {
+  margin-right: 9.8%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.logo_foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 88px;
+  height: 39px;
+  background: url(../img/logo_foot.svg) no-repeat;
+}
+
+.foot_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+._foot_nav_mnu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 91px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+a._foot_nav_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "URWGeometricExtended";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+._foot_adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+._foot_adress ._foot_descr_gen:nth-child(2) {
+  margin: 5px 0 15px 0;
+}
+
+.foot_bank_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+._foot_text_gen,
+._foot_contact_wr {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+._foot_descr_gen {
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 25.6px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+._foot_descr_gen {
+  font-family: "Jost";
+  font-size: 16px;
+  line-height: 160%;
+  font-style: normal;
+  font-weight: 400;
+}
+
+._foot_contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.social_href {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 16px;
+}
+
+._social_circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+._foot_contact_wr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ic_phone_foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 12.2px;
+  height: 12.2px;
+  background: url(../img/icons/phone_white.svg) no-repeat;
+  margin-right: 8.26px;
+}
+
+._social_circle:last-child {
+  margin-left: 20px;
+}
+
+.ic_facebook {
+  width: 10.37px;
   height: 20px;
-  background: url(../img/icons/user.svg) no-repeat center center;
+  background: url(../img/icons/face.svg) no-repeat;
 }
 
-.favorites_icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 20px;
-  height: 18px;
-  background: url(../img/icons/heard.svg) no-repeat center center;
-}
-
-.basket_icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.ic_instagram {
   width: 20px;
   height: 20px;
-  background: url(../img/icons/basket.svg) no-repeat center center;
+  background: url(../img/icons/inst.svg) no-repeat;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.copy_text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
 }
 /*# sourceMappingURL=style.css.map */
