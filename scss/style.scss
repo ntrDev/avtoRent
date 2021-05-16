@@ -95,6 +95,7 @@ a.item_lang {
     line-height: 22px;
     color: $black;
     margin-right: 10px;
+    vertical-align: text-bottom;
 }
 a.item_lang.active {
     color: $red_text;
@@ -104,16 +105,36 @@ a.item_lang.active {
     width: 100%;
     height: 91px;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    padding-top: 20px;
 }
 .top_phone_number {
+    display: flex;
+    align-items: center;
     font-family: "URWGeometricExtendedBl";
     font-size: 16px;
 }
+.ic_top_phone,
+.ic_phone_foot {
+    display: flex;
+    width: 12.62px;
+    height: 12.62px;
+    margin-right: 8.25px;
+    background: url(../img/icons/phone_red.svg) no-repeat;
+}
 .top_addres_name {
+    display: flex;
+    align-items: center;
     font-family: "URWGeometric_Ext_Med";
     font-size: 16px;
     font-weight: 400;
+}
+.ic_top_map {
+    display: flex;
+    width: 12.82px;
+    height: 17px;
+    margin-right: 8.92px;
+    background: url(../img/icons/map.svg) no-repeat;
 }
 
 /// info-block /////
@@ -195,7 +216,8 @@ span > strong {
 .icon_img_3 {
     background: url(../img/icons/icon_3.svg) no-repeat;
 }
-button.btn {
+button.btn,
+a.btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,8 +227,10 @@ button.btn {
     width: 183px;
     height: 52px;
     background: $red_text;
+    cursor: pointer;
 }
-button.btn:hover {
+button.btn:hover,
+a.btn:hover {
     background: $red_hover;
     transition: all 0.1s;
 }
@@ -226,13 +250,15 @@ button.btn:hover {
     width: 100%;
     justify-content: center;
 }
+
 /////// about us //////
+
 .about_us {
     margin-top: 150px;
 }
 ._about_us_test_info {
     display: flex;
-    width: 40.78%;
+    width: 42.78%;
     flex-direction: column;
 }
 ._text_block_name,
@@ -277,6 +303,31 @@ button.btn:hover {
     height: 456px;
     background: url(../img/image_about.png) no-repeat;
 }
+.about_addres {
+    display: flex;
+    width: 80%;
+    font-family: "Jost_Reg";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 20px;
+}
+.about_addres .ic_top_map {
+    width: 19px;
+    height: 16.75px;
+    margin-right: 5px;
+}
+.about_us_cont {
+    font-family: "Jost_SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: $black;
+}
+
+////////// rentida /////////
 .block_rentida {
     display: flex;
     width: 100%;
@@ -287,7 +338,6 @@ button.btn:hover {
 }
 .wrapper._rentida_wrapp {
     display: flex;
-    // justify-content: space-between;
 }
 ._rentida_text_section {
     display: flex;
@@ -375,8 +425,8 @@ button.btn:hover {
 /// contact_us ///
 ._map_block {
     display: flex;
-    width: 50.78%;
-    margin-left: 7.25%;
+    width: 53.5%;
+    margin-left: 11.5%;
 }
 .map_img {
     width: 100%;
@@ -387,6 +437,21 @@ button.btn:hover {
     display: flex;
     padding: 150px 0;
 }
+._contact_us_descr {
+    display: flex;
+    font-family: "Jost-Reg";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: $black;
+    margin-bottom: 30px;
+}
+
+/// contact_us ///
+
+/// footer //////
+
 footer {
     display: flex;
     width: 100%;
@@ -395,6 +460,9 @@ footer {
     margin-bottom: 20px;
     padding-top: 45px;
     color: #fff;
+    flex-wrap: wrap;
+}
+footer .wrapper {
     flex-wrap: wrap;
 }
 footer .logo_wrapper {
@@ -486,11 +554,7 @@ a._foot_nav_item {
     align-items: center;
 }
 .ic_phone_foot {
-    display: flex;
-    width: 12.2px;
-    height: 12.2px;
     background: url(../img/icons/phone_white.svg) no-repeat;
-    margin-right: 8.26px;
 }
 ._social_circle:last-child {
     margin-left: 20px;
@@ -515,4 +579,112 @@ a._foot_nav_item {
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
+}
+
+////// catalog page //////
+._avto_items_wrapp {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.avto_item {
+    display: flex;
+    width: 49%;
+    height: 450px;
+    background: #fff;
+    padding: 22px 13px 35px 11px;
+    filter: drop-shadow(0px 0px 20px rgba(181, 179, 179, 0.2));
+}
+.avto_content_item {
+    display: flex;
+    width: 100%;
+}
+.avto_data {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.avt_gen_name {
+    display: flex;
+    width: 100%;
+    font-family: "Jost-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: $red_text;
+}
+.avt_data_descr_wrapp {
+    display: flex;
+    width: 30%;
+}
+.avto_data_cont_wrapp {
+    display: flex;
+    width: 45.86%;
+    flex-wrap: wrap;
+    margin-left: 110px;
+}
+.avt_vol_first {
+    width: 29%;
+    font-family: "Jost-Reg";
+    font-weight: normal;
+}
+.avt_vol_first,
+.avt_vol_second {
+    display: flex;
+    height: 104px;
+    flex-direction: column;
+    margin-right: 38px;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 160%;
+}
+.avt_vol_second {
+    width: 54%;
+    margin-right: 0;
+    font-family: "Jost-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+}
+////// avto images ////
+.avto_img_wrapper {
+    display: flex;
+    width: 100%;
+}
+.avto_bg_img {
+    display: flex;
+    width: 49%;
+}
+.featured {
+    display: flex;
+    max-width: 285px;
+    max-height: 193px;
+    cursor: pointer;
+    object-fit: cover;
+}
+.thumbnail_wrapp {
+    display: flex;
+    width: 49%;
+    flex-wrap: wrap;
+}
+.thumbnail {
+    max-width: 140px;
+    max-height: 95px;
+    cursor: pointer;
+    object-fit: cover;
+}
+.avt_data_descr_wrapp {
+    display: flex;
+    // height: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.avt_data_descr {
+    font-family: "Jost-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 3px;
 }
